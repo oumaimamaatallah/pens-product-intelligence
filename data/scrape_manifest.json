@@ -1,0 +1,402 @@
+{
+  "source": "https://www.pens.com/us/",
+  "market": "US",
+  "currency": "USD",
+  "observed_at": "2026-10-27T16:12:27+00:00",
+  "scope": "First 24 products from each of four public categories; not the full store",
+  "products": 93,
+  "pages_fetched": [
+    {
+      "url": "https://www.pens.com/us/c/custom-pens",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-alpha-soft-touch-pen-stylus/prd-x1oii8hz/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/metallic-vortex-stylus-pen/prd-8pxzirfc/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/elite-cirrus-pen/prd-05olasoo/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/metallic-splendor-pen/prd-dllxdugh/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-recycled-dice-fidget-pen/prd-ejqhxo50/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/soft-touch-hughes-gel-stylus-pen/prd-0wi3qzdt/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/classic-partisan-pen/prd-totzpyei/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/pacifica-pen-with-colored-grip/prd-dxka1q6c/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-soft-touch-paragon-pen/prd-wo4mqbw9/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/translucent-cabaret-pen/prd-g20jx45e/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/alpha-soft-touch-gel-pen-rose-gold-trim/prd-7k4qktej/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/coastal-basilia-stylus-pen-rose-gold-trim/prd-5ewzpydz/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/bright-miles-gel-stylus-pen/prd-xglflljc/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/recycled-clara-pen/prd-wxq4idsm/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/design-wrap-contour-pen/prd-c7qkz9wf/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/bright-alpha-soft-touch-stylus/prd-zpejmjhh/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/soft-touch-textured-grip-jett-gel-pen/prd-qw98rebj/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-alpha-stylus-pen-gunmetal-trim/prd-mjfuehny/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/britebrand-bright-soft-touch-alpha-stylus-pen/prd-zftvc3lh/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/mineral-alpha-soft-touch-pen-rose-gold-trim/prd-gukeujf7/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-soft-touch-compass-fidget-stylus-pen/prd-6bpfbsf1/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-etta-fidget-stylus-pen-rose-gold-trim/prd-s1ux4ahu/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/design-wrap-colorama-extreme-pen/prd-6nd7rjn3/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/bic-intensity-gel-pen/prd-x08k1idh/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/c/promotional-custom-drinkware",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/20oz-calder-double-wall-tumbler/prd-lf7msxkd/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/12-oz-rustic-ceramic-mug/prd-txbz6c6b/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/20oz-engraved-denali-stainless-steel-tumbler/prd-q477v6jd/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/40oz-alpine-recycled-stainless-steel-travel-mug/prd-fuahrndm/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/16oz-grande-big-sur-double-wall-tumbler/prd-uo7cz6gw/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/11-oz-white-ceramic-mug/prd-d4fztggo/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/32-oz-theo-recycled-stainless-steel-tumbler/prd-n6ypp2e6/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/15-oz-brew-ceramic-mug/prd-ddlk47ml/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/12oz-arabica-ceramic-mug/prd-wrbzjoy7/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-20oz-soft-touch-denali-stainless-steel-tumbler/prd-g42qxcpr/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/17oz-vida-recycled-bottle/prd-kchkm4qp/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/full-color-24oz-brody-recycled-stainless-steel-water-bottle/prd-vs88qszv/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/12-oz-denali-ceramic-mug/prd-3ogb4u5d/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/12oz-ombre-lido-ceramic-mug/prd-cokqy2q1/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/22oz-sunsplash-single-wall-pp-tumbler/prd-d882opch/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/16-oz-grande-nina-double-wall-tumbler/prd-2xbakxqx/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/engraved-caravan-6-function-pocket-knife/prd-bvnyek8t/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/32oz-recycled-noah-travel-mug/prd-ddlkjytj/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/design-wrap-12oz-ceramic-mug/prd-0xsxkt2w/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/gismo-3in1-keychain/prd-vz4j9pzs/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/16-oz-brewster-beer-glass/prd-aq6wlday/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/16-oz-vera-wine-glass/prd-ikdvfgzo/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/c/custom-bags",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/water-resistant-budget-shopper-tote/prd-uq0nigvx/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/tote-bag-patriotic-flag/prd-mhgprsln/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/economy-tote/prd-biwhh0rl/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/mini-orleans-12-oz-canvas-tote-bag/prd-zo67ifa9/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/horizontal-stripe-tote-bag/prd-gi4yrpof/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/large-water-resistant-lila-shopping-tote/prd-wopgb0fz/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/non-woven-sports-pack/prd-zdyurf6h/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/budget-shopper-recycled-tote/prd-9cez068j/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/little-juno-non-woven-grocery-tote/prd-hygljnl9/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/non-woven-mini-tote-bag/prd-fwntff19/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/hugo-recycled-cooler-tote-bag/prd-mitfqtnc/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/two-tone-unity-5oz-recycled-cotton-tote-bag/prd-ltmmbq3f/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/7x105-die-cut-handle-bag/prd-pxylf1aw/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/large-wave-patterned-shopping-bag/prd-prg5eaaj/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/pike-rpet-double-handle-tote-bag/prd-ilqcxiqa/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/gia-jute-tote-bag/prd-qaocpgxy/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/full-color-ruth-5-oz-recycled-cotton-shopping-tote/prd-fqbo5e2e/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/gigi-9-oz-recycled-cotton-tote-bag-with-cork-trim/prd-lzkjysql/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/everyday-recycled-drawstring-backpack/prd-bc5cag60/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/embroidered-koozie-stitches-cooler/prd-sjcjbxzc/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/graphite-deluxe-15-computer-backpack/prd-ilyogfyg/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/graphite-weekender-duffel-bag/prd-iozgrt2p/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/vila-recycled-executive-duffel-bag/prd-4xtz2oi9/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/c/custom-notebooks-journals",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/full-color-soft-touch-notebook-pen-set/prd-2yqyfbhp/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/43x58-recycled-kraft-paper-oscar-journal/prd-gt55mskn/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/full-color-57x83-recycled-tonal-notebook/prd-o4tvfzgt/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/britebrand-bright-jesse-notebook/prd-pxu3onbu/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/debossed-56x-83-recycled-caroll-notebook/prd-6zblmyyu/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/4x56-charon-notebook-pen-set/prd-n4stozck/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/full-color-4x57-recycled-linen-byron-notebook-pen-set/prd-my5jm7m2/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/britebrand-5x8-soft-touch-cate-notebook/prd-10tsfdde/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/britebrand-jesse-notebook/prd-rbkwrkps/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/note-organizer-rose-gold-pen-set/prd-45f7zxa7/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/58x83-recycled-milk-carton-wren-notebook/prd-6agygbzi/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/56x79-recycled-keats-spiral-notebook-pen-set/prd-vq6ddwc9/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/soft-touch-journal-with-pen-holder/prd-tdqmqdh5/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/85x11-farley-spiral-notebook/prd-yqzjqine/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/spiral-notebook-pocket-pen/prd-uqhkg5g4/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/leather-look-5x7-portfolio/prd-kkh23ka1/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/mini-spiral-notebook/prd-utnfrikn/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/pedova-soft-bound-journalbook/prd-bfw1pizx/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/5x7-prism-notebook/prd-tzuneypk/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/55x85-recycled-coastal-threads-notebook/prd-0ocmhgjt/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/design-wrap-6x85-kerouac-notebook/prd-anbd1tji/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/55x8-exhibit-recycled-spiral-notebook/prd-oarljfxz/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/full-color-43x58-recycled-kraft-paper-oscar-journal/prd-z0a89bez/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    },
+    {
+      "url": "https://www.pens.com/us/p/43x58-recycled-proust-journal/prd-thvrczn0/",
+      "observed_at": "2026-10-27T16:12:27+00:00"
+    }
+  ],
+  "errors": [],
+  "missing_fields": "Left blank, never presented as scraped facts",
+  "robots_checked": true,
+  "request_delay_seconds": 1.1
+}

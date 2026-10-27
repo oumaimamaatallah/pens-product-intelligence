@@ -1,0 +1,14 @@
+{
+  "seed": 83,
+  "orders": 1600,
+  "lines": 2866,
+  "period": "2025-01 to 2025-12",
+  "source": "Entirely simulated, not Pens.com internal data",
+  "assumptions": [
+    "Seasonal sampling weights",
+    "Order quantities are multiples of public minimums",
+    "Prices interpolated inside the observed public range",
+    "Unit cost is 42-70% of scenario price",
+    "Full returns only; no tax, shipping, setup charges or overhead"
+  ]
+}

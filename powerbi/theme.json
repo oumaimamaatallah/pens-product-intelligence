@@ -1,0 +1,13 @@
+{
+  "name": "Product notebook",
+  "dataColors": [
+    "#213DB7",
+    "#0D938A",
+    "#E4A848",
+    "#9B9BC6",
+    "#C97870"
+  ],
+  "background": "#F4F5F8",
+  "foreground": "#192442",
+  "tableAccent": "#213DB7"
+}
