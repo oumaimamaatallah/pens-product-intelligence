@@ -51,14 +51,16 @@ def parse_category(html, category, source_url, observed_at):
         minimum = card.select_one(".minimum_quantity")
         shipping = card.select_one(".ship_msg")
         image = card.select_one("picture[data-src]")
+        minimum_value = number(minimum.get_text()) if minimum else None
+        shipping_value = number(shipping.get_text()) if shipping else None
         rows.append({
             "sku": anchor["data-sku"], "product_name": clean(anchor["data-prod-name"]),
             "category": category, "currency": "USD", "unit_price_low": low, "unit_price_high": high,
             "regular_price": number(anchor.get("data-product-default-price")),
-            "minimum_order": int(number(minimum.get_text()) or 1) if minimum else None,
+            "minimum_order": int(minimum_value) if minimum_value is not None else None,
             "rating": number(rating.get("aria-label")) if rating else None,
             "review_count": int(number(reviews.get_text()) or 0) if reviews else None,
-            "ship_days": int(number(shipping.get_text()) or 0) if shipping else None,
+            "ship_days": int(shipping_value) if shipping_value is not None else None,
             "color_count": int(number(anchor.get("data-total-colors-count")) or 0),
             "colors": " | ".join(dict.fromkeys(clean(x.get("data-english-color")) for x in card.select("[data-english-color]"))),
             "product_url": urljoin(BASE, anchor["href"]), "image_url": image.get("data-src", "") if image else "",

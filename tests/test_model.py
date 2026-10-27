@@ -37,6 +37,9 @@ def test_missing_fields_are_not_fabricated():
     assert row["minimum_order"] is None
     assert parse_product("<html></html>")["material"] == ""
     assert clean("one\u2014two") == "one - two"
+    unknown = parse_category('<div class="product-card"><a data-sku="X" data-prod-name="X" href="/us/p/x/"></a><div class="minimum_quantity">Call for quote</div><div class="ship_msg">Contact us</div></div>', "Pens", "url", "date")[0]
+    assert unknown["minimum_order"] is None
+    assert unknown["ship_days"] is None
 
 
 def test_distinct_order_math_excludes_returns():

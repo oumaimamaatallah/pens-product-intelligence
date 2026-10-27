@@ -1,6 +1,7 @@
 """Write a native PBIP report and an embedded import model."""
 
 import base64
+from datetime import date
 import json
 from pathlib import Path
 import sys
@@ -79,6 +80,7 @@ def table(name, frame, types, measures=None):
 
 def build():
     products, sales = load_data()
+    capture_date = date.fromisoformat(str(products.observed_at.iloc[0])[:10]).strftime("%d %B %Y")
     output = ROOT / "powerbi"
     report = output / "PensProductNotebook.Report"
     semantic = output / "PensProductNotebook.SemanticModel"
@@ -144,7 +146,7 @@ def build():
             visual(page, "catalog_counts", "barChart", 645, 255, 595, 295,
                    {"Category": [projection("Products", "category")], "Y": [projection("Products", "Products observed", True)]}, "Observed products by category")
             visual(page, "product_table", "tableEx", 24, 570, 1215, 205,
-                   {"Values": [projection("Products", col) for col in ["sku", "product_name", "category", "unit_price_low", "unit_price_high", "minimum_order", "rating"]]}, "Public catalog snapshot / USD / 27 October 2026")
+                   {"Values": [projection("Products", col) for col in ["sku", "product_name", "category", "unit_price_low", "unit_price_high", "minimum_order", "rating"]]}, f"Public catalog snapshot / USD / {capture_date}")
         else:
             visual(page, "monthly_scenario", "lineChart", 24, 255, 740, 310,
                    {"Category": [projection("Scenario", "order_date")], "Y": [projection("Scenario", "Simulated net sales", True), projection("Scenario", "Assumed gross profit", True)]}, "Simulated sales and assumed profit")
