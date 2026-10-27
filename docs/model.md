@@ -4,7 +4,7 @@ The public snapshot was captured from the [Pens.com US storefront](https://www.p
 
 data/products.csv has one row per SKU. It contains product name, category, advertised unit-price range, regular minimum-quantity price, order minimum, average rating, review count, shipping estimate, colors, material, ink color, printing process, page specifications, price tiers and image/source URLs. observed_at gives the capture time. Missing fields are blank; source metadata is never invented. Trademarks with broken source encoding are stripped, and long dashes are normalized.
 
-Advertised lowest prices often require large quantities. unit_price_low and unit_price_high describe the displayed range, not an arbitrary order quote. Rating averages are unweighted across rated products. Shipping estimates depend on artwork approval and are not delivery promises. Product imagery remains Pens.com's; a few thumbnails are cached for this study.
+Advertised lowest prices often require large quantities. unit_price_low and unit_price_high describe the displayed range, not an arbitrary order quote. Rating averages are unweighted across rated products. Shipping estimates depend on artwork approval and are not delivery promises. Product imagery remains Pens.com's; product thumbnails are cached for this study.
 
 ## Sales scenario
 

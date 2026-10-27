@@ -37,8 +37,11 @@ def main():
     elif args.export:
         command = [str(python), "scripts/export_report.py"]
     else:
-        command = [str(python), "-m", "streamlit", "run", "app.py", "--server.port", str(args.port),
-                   "--server.address", "127.0.0.1"]
+        if not (ROOT / "static/index.html").exists():
+            raise SystemExit("The bundled frontend is missing. Run npm ci and npm run build in web/ first.")
+        print(f"Open http://127.0.0.1:{args.port}", flush=True)
+        command = [str(python), "-m", "uvicorn", "server:app", "--port", str(args.port),
+                   "--host", "127.0.0.1"]
     try:
         return subprocess.call(command, cwd=ROOT)
     except KeyboardInterrupt:

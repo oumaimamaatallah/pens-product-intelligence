@@ -6,3 +6,7 @@ exports
 docs
 tests
 .env
+**/node_modules
+static
+web/test-results
+web/playwright-report

@@ -11,3 +11,9 @@ exports/
 **/.pbi/
 *.pbix
 *.lock
+
+node_modules/
+web/.vite/
+
+web/test-results/
+web/playwright-report/

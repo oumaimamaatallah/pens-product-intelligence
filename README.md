@@ -1,8 +1,8 @@
 # Pens.com product notebook
 
-A catalog study inspired by my internship at Pens.com. It combines public product pages with a separate, fictional sales scenario to explore pricing, order sizes and product mix.
+A public catalog study inspired by my internship at Pens.com. Browse products, inspect captured quantity-price tiers, or explore a separate sales scenario.
 
-![Product dashboard](docs/dashboard.png)
+![Product notebook](docs/dashboard.png)
 
 ## Run
 
@@ -10,17 +10,15 @@ Python 3.11-3.13:
 
     python run.py
 
-Open http://localhost:8501. The first run creates an environment and installs the pinned dependencies.
+Open http://localhost:8501. The first run installs the pinned Python dependencies. The React frontend is bundled; Node.js is only needed to edit it.
 
     python run.py --test
     python run.py --export
 
-## Power BI
+Open a product to inspect specifications and a quantity-price subtotal. Price notes compare the observed catalog; Sales model uses clearly labeled fictional transactions.
 
-Open powerbi/PensProductNotebook.pbip in Power BI Desktop and select **Refresh**. The source snapshots are embedded, so there are no file paths to change. The report has separate pages for observed catalog facts and simulated sales.
+The snapshot covers 93 products in four US-storefront categories. It is an independent portfolio study, not an internal Pens.com report. All product thumbnails are cached for offline use.
 
-The snapshot contains 93 products from four US-storefront categories. Prices, ratings and specifications were scraped; orders and costs are simulated. This is an independent portfolio project, not an internal Pens.com report.
+Download the native report from the app, or open powerbi/PensProductNotebook.pbip in Power BI Desktop and select Refresh.
 
-[Setup and dependencies](docs/setup.md) / [Sources and calculations](docs/model.md)
-
-[Watch the walkthrough](docs/demo.gif)
+[Setup and dependencies](docs/setup.md) / [Sources and calculations](docs/model.md) / [Walkthrough](docs/demo.gif)
