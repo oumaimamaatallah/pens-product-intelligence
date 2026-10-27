@@ -80,24 +80,27 @@ a:focus-visible {
 }
 .notebook-logo {
   display: flex;
-  gap: 15px;
+  gap: 14px;
   align-items: center;
+  flex-shrink: 0;
 }
-.pn-mark {
-  font-size: 44px;
-  font-weight: 800;
-  letter-spacing: -4px;
-  color: #293ed0;
-  line-height: 1;
+.pens-mark {
+  display: block;
+  width: 138px;
+  flex-shrink: 0;
 }
-.pn-mark > span {
-  color: #bf3b1b;
+.pens-mark img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.notebook-logo > span:last-child {
+.notebook-label {
   font-size: 10px;
   letter-spacing: 1.6px;
   line-height: 1.6;
   color: #64697a;
+  border-left: 1px solid #e3e5eb;
+  padding-left: 14px;
 }
 .notebook-logo b {
   color: #262d38;
@@ -1145,11 +1148,11 @@ a:focus-visible {
   .notebook-logo {
     gap: 12px;
   }
-  .pn-mark {
-    font-size: 37px;
+  .pens-mark {
+    width: 116px;
   }
-  .notebook-logo > span:last-child {
-    font-size: 10px;
+  .notebook-label {
+    display: none;
   }
   .notebook-header nav {
     order: 3;
@@ -1433,5 +1436,18 @@ a:focus-visible {
   }
   .tally-lines {
     display: none;
+  }
+}
+@media (max-width: 380px) {
+  .catalog-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .catalog-actions > :first-child,
+  .catalog-actions .view-switch {
+    justify-self: start;
+  }
+  .catalog-actions > :last-child {
+    justify-self: end;
   }
 }

@@ -183,15 +183,22 @@ export default function App() {
           <a
             href="#"
             className="notebook-logo"
+            aria-label="Pens.com product notebook home"
             onClick={(event) => {
               event.preventDefault()
               setTab("catalog")
             }}
           >
-            <span className="pn-mark">
-              pn<span>.</span>
-            </span>
-            <span>
+            <picture className="pens-mark">
+              <source
+                media="(max-width: 760px)"
+                srcSet="/brand/pens-com-compact.svg"
+                width="228"
+                height="72"
+              />
+              <img src="/brand/pens-com.svg" alt="Pens.com" width="232" height="72" />
+            </picture>
+            <span className="notebook-label">
               PRODUCT
               <br />
               <b>NOTEBOOK</b>
