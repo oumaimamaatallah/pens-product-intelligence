@@ -28,6 +28,7 @@
 :root {
   font-family: Arial, Helvetica, sans-serif;
   color-scheme: light;
+  --page-background: #eaf4ff;
   --background: #fff;
   --foreground: #22272f;
   --primary: #293ed0;
@@ -38,7 +39,7 @@
 }
 body {
   margin: 0;
-  background: #fff;
+  background: var(--page-background);
   color: #22272f;
   font-size: 13px;
 }
