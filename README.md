@@ -21,4 +21,4 @@ The snapshot covers 93 products in four US-storefront categories. It is an indep
 
 Download the native report from the app, or open powerbi/PensProductNotebook.pbip in Power BI Desktop and select Refresh.
 
-[Setup and dependencies](docs/setup.md) / [Sources and calculations](docs/model.md) / [Walkthrough](docs/demo.gif)
+[Setup and dependencies](docs/setup.md) / [API and CSV exports](docs/api.md) / [Sources and calculations](docs/model.md) / [Walkthrough](docs/demo.gif)
