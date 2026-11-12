@@ -28,9 +28,11 @@ def selected_products(category="all", q="", rated=False, max_price: float | None
     selected = products.copy()
     if category != "all":
         selected = selected[selected.category.eq(category)]
+    q = q.strip()
     if q:
         selected = selected[selected.product_name.str.contains(q, case=False, regex=False) |
-                            selected.sku.str.contains(q, case=False, regex=False)]
+                            selected.sku.str.contains(q, case=False, regex=False) |
+                            selected.material.str.contains(q, case=False, regex=False)]
     if rated:
         selected = selected[selected.rating.notna()]
     if max_price is not None:
