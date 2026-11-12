@@ -163,9 +163,11 @@ export default function App() {
   const products = [...(data?.products ?? [])].sort((a, b) =>
     sort === "Price: low to high"
       ? (a.unit_price_low ?? Infinity) - (b.unit_price_low ?? Infinity)
-      : sort === "Most reviewed"
-        ? (b.review_count ?? 0) - (a.review_count ?? 0)
-        : 0,
+      : sort === "Price: high to low"
+        ? (b.unit_price_low ?? -Infinity) - (a.unit_price_low ?? -Infinity)
+        : sort === "Most reviewed"
+          ? (b.review_count ?? 0) - (a.review_count ?? 0)
+          : 0,
   )
   useEffect(() => setCatalogPage(0), [category, query, rated, maxPrice, sort])
   const pageProducts = products.slice(catalogPage * 12, (catalogPage + 1) * 12)
@@ -392,7 +394,12 @@ export default function App() {
                     label="Sort products"
                     value={sort}
                     onChange={setSort}
-                    options={["Catalog order", "Price: low to high", "Most reviewed"]}
+                    options={[
+                      "Catalog order",
+                      "Price: low to high",
+                      "Price: high to low",
+                      "Most reviewed",
+                    ]}
                   />
                   <div className="view-switch" aria-label="Product layout">
                     <Button
